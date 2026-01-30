@@ -1,7 +1,7 @@
 import { momentListType } from './momentListType'
 import recommendDailyType from './recommendDailyType'
 import recommendListType from './recommendListType'
-import { SongItemType } from './SongItemType'
+import { SongItemType } from '../type/SongItemType'
 
 
 // 轮播图数据
@@ -73,7 +73,7 @@ export  let recommendList: recommendListType[] = [
     count: '362.8万'
   }
 ]
-export  const songsList: SongItemType[] = [
+export const songsList: SongItemType[] = [
   {
     img: 'http://yjy-teach-oss.oss-cn-beijing.aliyuncs.com/HeimaCloudMusic/0.jpg',
     name: '直到世界的尽头',
@@ -317,4 +317,4 @@ export  const momentList: momentListType[] = [
     like: 5482,
     song: songsList[15]
   }
-]
+] //假设你 class 在这个文件里

@@ -1,4 +1,4 @@
-import { SongItemType } from "../../models/music"
+import { SongItemType } from '../type/SongItemType'
 import { AppStorageV2 } from "@kit.ArkUI"
 import { songsList } from "../type/data"
 import { GlobalMusic } from "../type/GlobalMusic"
