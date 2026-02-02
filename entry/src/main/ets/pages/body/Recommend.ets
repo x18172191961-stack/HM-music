@@ -4,7 +4,7 @@ import recommendDailyType from "../type/recommendDailyType"
 import recommendListType from "../type/recommendListType"
 
 @Component
-export  struct Recommend {
+export struct Recommend {
 
   @State swiperList: string[] = []
   @State dailyRecommend: recommendDailyType[] = []
